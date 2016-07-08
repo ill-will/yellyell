@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    overflow: scroll;
 }
 
 /*
@@ -300,9 +301,10 @@ body {
 }
 
 .frontPage {
-  width: 100vw;
-  height: 100vh;
+  /*width: 100vw;
+  height: 100vh;*/
   background-color: yellow;
+  position: relative;
 }
 
 .navbar {
@@ -334,6 +336,9 @@ body {
 @media (max-width: 600px) {
   .social {
     max-width: 3.5em;
+  }
+  .navbar {
+    position: static;
   }
 }
 
@@ -382,12 +387,13 @@ a {
 
   .frontTitle {
     margin: 0.2em;
+    text-align: center;
   }
 }
 
 .frontImage {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url('../img/Circle.jpg');
   background-size: cover;
   background-position: center;
