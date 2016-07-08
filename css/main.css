@@ -331,6 +331,12 @@ body {
   bottom: 0.3em;
 }
 
+@media (max-width: 600px) {
+  .social {
+    max-width: 2em;
+  }
+}
+
 .headline {
   width: 100%;
   position: absolute;
