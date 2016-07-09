@@ -418,23 +418,24 @@ a {
 
 .article {
   width: 100vw;
-  height: 30vw;
+  height: 400px;
   position: relative;
   overflow: hidden;
 }
 
 .articleImage {
-  width: 55%;
+  width: 56%;
   height: 100%;
   /*background-color: black;*/
   /*background-image: url('../img/Circle.jpg');*/
   background-size: cover;
   background-position: center;
   float: left;
+  z-index: -10;
 }
 
 .articleTitle {
-  width: 45%;
+  width: 50%;
   height: 100%;
   /*background-color: IndianRed;*/
   float: left;
@@ -444,6 +445,40 @@ a {
   align-items: center; /* align vertical */
   z-index: 1;
   position: relative;
+}
+
+.left a {
+  text-align: right;
+  padding-left: 0.5em;
+  width: 100%;
+  margin: 0;
+}
+
+.left .articleTitle {
+  position: absolute;
+  left: 0;
+}
+
+.right .articleTitle {
+  position: absolute;
+  right: 0;
+}
+
+.left .articleImage {
+  position: absolute;
+  right: 0;
+}
+
+.right .articleImage {
+  position: absolute;
+  left: 0;
+}
+
+.right a {
+  text-align: left;
+  padding-right: 0.5em;
+  width: 100%;
+  margin: 0;
 }
 
 .articleTitle a {
