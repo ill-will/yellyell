@@ -418,8 +418,9 @@ a {
 
 .article {
   width: 100vw;
-  height: 33vw;
+  height: 30vw;
   position: relative;
+  overflow: hidden;
 }
 
 .articleImage {
@@ -442,6 +443,7 @@ a {
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   z-index: 1;
+  position: relative;
 }
 
 .articleTitle a {
@@ -454,7 +456,14 @@ a {
   }
 }
 
-.rightDownTrapezoid {
+.trapezoid {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+/*.rightDownTrapezoid {
   position: absolute;
   top: 0;
   right: 0;
@@ -504,7 +513,7 @@ a {
 	width: 55vw;
   box-sizing: border-box;
   z-index: 10;
-}
+}*/
 
 .articleLink {
   text-align: right;
