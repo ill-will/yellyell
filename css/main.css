@@ -445,11 +445,19 @@ a {
   align-items: center; /* align vertical */
   z-index: 1;
   position: relative;
+  box-sizing: border-box;
 }
 
 .left a {
   text-align: right;
   padding-left: 0.5em;
+  width: 100%;
+  margin: 0;
+}
+
+.right a {
+  text-align: left;
+  padding-right: 0.5em;
   width: 100%;
   margin: 0;
 }
@@ -474,20 +482,17 @@ a {
   left: 0;
 }
 
-.right a {
-  text-align: left;
-  padding-right: 0.5em;
-  width: 100%;
-  margin: 0;
-}
-
 .articleTitle a {
   z-index: 10
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .articleTitle {
     font-size: 1.5em;
+  }
+
+  .article {
+    height: 200px;
   }
 }
 
