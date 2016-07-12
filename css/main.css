@@ -376,6 +376,9 @@ a {
 }
 
 .yellyell {
+  font-size: 4em;
+  font-family: "Tungsten";
+  font-weight: 600;
   text-align: right;
   float: right;
   position: absolute;
@@ -383,6 +386,7 @@ a {
   right: 1em;
   margin-top: -0.5em;
   line-height: 1em;
+  margin-right: 0;
   color: Black;
 }
 
