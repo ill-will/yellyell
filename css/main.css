@@ -294,6 +294,11 @@ textarea {
     src: url('../Landmark-Regular.ttf');
 }
 
+@font-face {
+    font-family: Tungsten;
+    src: url('../fonts/Tungsten-Medium.otf');
+}
+
 
 body {
   background-color: Gold;
