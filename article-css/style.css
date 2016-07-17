@@ -40,6 +40,16 @@
     src: url('../fonts/tungsten-book.ttf');
 }
 
+@font-face {
+    font-family: Landmark;
+    src: url('../Landmark-Regular.ttf');
+}
+
+@font-face {
+    font-family: Tungsten;
+    src: url('../fonts/Tungsten-Medium.otf');
+}
+
 body {
   position: relative;
 }
