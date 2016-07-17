@@ -1,0 +1,174 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+@font-face {
+    font-family: Tungsten-Thin;
+    src: url('../fonts/Tungsten-Thin.otf');
+}
+
+@font-face {
+    font-family: Tungsten-Light;
+    src: url('../fonts/Tungsten-Light.otf');
+}
+
+@font-face {
+    font-family: TungstenBook;
+    src: url('../fonts/tungsten-book.ttf');
+}
+
+body {
+  position: relative;
+}
+
+.titleImage {
+  width: 100vw;
+  height: 100vh;
+  background-color: teal;
+  background-position: center;
+  background-size: cover;
+}
+
+.titleBanner {
+  background-color: crimson;
+  overflow: hidden;
+}
+
+.titleText {
+  margin-top: 10rem;
+  margin-left: 10rem;
+  font-family: "Landmark";
+  font-size: 6rem;
+}
+
+.yellyell {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  font-family: "Tungsten-Medium";
+  font-size: 6rem;
+}
+
+.titleBar {
+  background-color: crimson;
+  overflow: hidden;
+}
+
+.yy {
+  text-align: right;
+  font-family: "Tungsten-Medium";
+  font-size: 5rem;
+  margin-top: 4rem;
+}
+
+.ttl {
+  font-family: "Landmark";
+  font-size: 6rem;
+}
+
+@media (max-width: 700px) {
+  .yy {
+    font-size: 3rem;
+  }
+  .ttl {
+    font-size: 4rem;
+  }
+}
+
+.salutation {
+  font-family: "Tungsten-Thin";
+  /*font-weight: 400;*/
+  font-size: 3rem;
+  color: white;
+  line-height: 1em;
+}
+
+.date-source {
+  text-align: right;
+  font-family: "Tungsten-Thin";
+  /*font-weight: 400;*/
+  font-size: 3rem;
+  color: white;
+  line-height: 1em;
+}
+
+.content {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.content p {
+  font-family: "Tungsten-Light";
+  font-size: 3rem;
+}
+
+.content h4 {
+  font-family: "TungstenBook";
+  /*font-weight: 400;*/
+  font-size: 4rem;
+  margin-bottom: 0rem;
+  letter-spacing: 0rem;
+}
+
+.content img {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.content a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.signature {
+  background-color: crimson;
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+
+.signature a {
+  color: white;
+}
+
+.signature img {
+  float: left;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.slant-top {
+  width: 100vw;
+  height: 6vw;
+  position: relative;
+  top: -1px;
+}
+
+.slant-bottom {
+  width: 100vw;
+  height: 6vw;
+  position: relative;
+  bottom: -1px;
+}
