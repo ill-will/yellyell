@@ -332,6 +332,10 @@ body {
   margin-right: 6em;
 }
 
+.categories a {
+  white-space:nowrap;
+}
+
 .social {
   position: absolute;
   right: 0.5em;
@@ -377,6 +381,7 @@ a {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   line-height: 1em;
+  letter-spacing: -2px;
   /*color: yellow;*/
 }
 
