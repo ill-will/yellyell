@@ -1,5 +1,36 @@
+@font-face {
+    font-family: Tungsten-Thin;
+    src: url('../fonts/Tungsten-Thin.otf');
+}
+
+@font-face {
+    font-family: Tungsten-Light;
+    src: url('../fonts/Tungsten-Light.otf');
+}
+
+@font-face {
+    font-family: Tungsten-ExtraLight;
+    src: url('../fonts/Tungsten-XLight.otf');
+}
+
+@font-face {
+    font-family: TungstenBook;
+    src: url('../fonts/tungsten-book.ttf');
+}
+
+@font-face {
+    font-family: Landmark;
+    src: url('../Landmark-Regular.ttf');
+}
+
+@font-face {
+    font-family: Tungsten-Medium;
+    src: url('../fonts/Tungsten-Medium.otf');
+}
+
+
 body {
-  font-family: "Tungsten";
+  font-family: "Tungsten-Light";
   color: "#444";
 }
 
