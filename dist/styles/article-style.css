@@ -1,0 +1,237 @@
+body {
+  font-family: "Tungsten";
+  color: "#444";
+}
+
+a {
+  color: crimson;
+}
+
+.article-titleImage {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.article-titleText-wrapper {
+  background-color: crimson;
+  overflow: hidden;
+}
+
+.article-titleText {
+  max-width: 100rem;
+  color: black;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.article-titleText a {
+  font-size: 3rem;
+  color: inherit;
+  line-height: 1em;
+  font-family: "Tungsten-Medium";
+}
+
+
+.article-titleText p {
+  font-family: "Landmark";
+  font-size: 4rem;
+  line-height: 1em;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.article-titleSlant {
+  width: 100vw;
+  height: 6vw;
+}
+
+
+
+
+
+
+
+.article-content {
+  max-width: 80rem;
+  margin-top: 3.5rem;
+  margin-bottom: 10rem;
+}
+
+
+@media (min-width: 80rem) {
+  .article-titleText {
+    text-align: right;
+  }
+
+  .article-titleText a {
+    font-size: 5rem;
+  }
+
+  .article-titleText p {
+    font-size: 8rem;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .article-content {
+    margin-top: 7rem;
+  }
+}
+
+
+.article-content img {
+  max-width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.article-content p {
+  font-size: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+.article-content h4 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-top: 8rem;
+  font-family: "TungstenBook"
+}
+
+.article-author {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1em;
+  margin-bottom: 4rem;
+}
+
+.article-author img {
+  border-radius: 1rem;
+}
+
+.article-date-source {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1em;
+  margin-bottom: 14rem;
+}
+
+.navbar {
+  background-color: black;
+  font-family: "Landmark";
+  font-size: 2.7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.categories a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+}
+
+.social a {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 80rem) {
+  .navbar a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.geek {
+  background-color: mediumorchid;
+}
+
+.geek + * svg {
+  fill: mediumorchid;
+}
+
+.geek-text a {
+  color: mediumorchid;
+}
+
+.arty {
+  background-color: mediumseagreen;
+}
+
+.arty + * svg {
+  fill: mediumseagreen;
+}
+
+.arty-text a {
+  color: mediumseagreen;
+}
+
+.vinyl {
+  background-color: orange;
+}
+
+.vinyl + * svg {
+  fill: orange;
+}
+
+.vinyl-text a {
+  color: orange;
+}
+
+.downtownbelly {
+  background-color: crimson;
+}
+
+.downtownbelly + * svg {
+  fill: crimson;
+}
+
+.downtownbelly-text a {
+  color: crimson;
+}
+
+.gifitatry {
+  background-color: lightgrey;
+}
+
+.gifitatry + * svg {
+  fill: lightgrey;
+}
+
+.gifitatry-text a {
+  color: lightgrey;
+}
+
+.eye {
+  background-color: gold;
+}
+
+.eye + * svg {
+  fill: gold;
+}
+
+.eye-text a {
+  color: gold;
+}
+
+.wtf {
+  background-color: steelblue;
+}
+
+.wtf + * svg {
+  fill: steelblue;
+}
+
+.wtf-text a {
+  color: steelblue;
+}
